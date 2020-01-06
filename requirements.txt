@@ -1,11 +1,11 @@
 Click==7.0
 Flask==1.1.1
-gunicorn==20.0.0
+gunicorn==20.0.4
 itsdangerous==1.1.0
 Jinja2==2.10.3
+lock==2018.3.25.2110
 MarkupSafe==1.1.1
 passlib==1.7.2
-peewee==3.11.2
+peewee==3.12.0
 psycopg2==2.8.4
-virtualenv==16.7.7
 Werkzeug==0.16.0
