@@ -9,8 +9,9 @@ from model import Task, User
 # ----------------------------------------
 
 app = Flask(__name__)
-app.secret_key = b"\xe0\x95\xf2`W8'X,2\xfc\x88Z\x8c\x97\xad~1\xd8k\xbb\xaf\xd7\xab"
-# app.secret_key = os.environ.get('SECRET_K').encode()
+#app.secret_key = b"\xe0\x95\xf2`W8'X,2\xfc\x88Z\x8c\x97\xad~1\xd8k\xbb\xaf\xd7\xab"
+
+app.secret_key = os.environ.get('SECRET_KEY').encode()
 # ----------------------------------------
 
 @app.route('/all')
